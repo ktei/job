@@ -1,0 +1,19 @@
+﻿
+<h2>Get your awesome size!</h2>
+
+<form>
+    <label>Email:</label>
+    <input id="email" name="email" type="email" />
+    <button type="submit">Submit</button>
+</form>
+
+<script>
+    $(function () {
+        $('form').submit(function (e) {
+            e.preventDefault();
+            $.post("api/size", $('form').serialize(), function (data) {
+                console.log(data);
+            });
+        });
+    });
+</script>
