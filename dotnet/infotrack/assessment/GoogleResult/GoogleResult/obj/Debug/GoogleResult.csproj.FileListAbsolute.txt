@@ -1,0 +1,5 @@
+F:\job\dotnet\infotrack\assessment\GoogleResult\GoogleResult\bin\Debug\GoogleResult.exe
+F:\job\dotnet\infotrack\assessment\GoogleResult\GoogleResult\bin\Debug\GoogleResult.pdb
+F:\job\dotnet\infotrack\assessment\GoogleResult\GoogleResult\obj\Debug\GoogleResult.csprojResolveAssemblyReference.cache
+F:\job\dotnet\infotrack\assessment\GoogleResult\GoogleResult\obj\Debug\GoogleResult.exe
+F:\job\dotnet\infotrack\assessment\GoogleResult\GoogleResult\obj\Debug\GoogleResult.pdb

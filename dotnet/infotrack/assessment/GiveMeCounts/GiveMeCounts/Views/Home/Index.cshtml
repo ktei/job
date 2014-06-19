@@ -1,0 +1,27 @@
+﻿
+<h1>Give me the count!</h1>
+
+<form role="form" data-bind="submit: getResult">
+    <div class="form-group">
+        <label for="keywords">Keywords:</label>
+        <input id="keywords" data-bind="value: keywords" name="keywords" type="text" class="form-control" placeholder="Enter keywords" autofocus required />
+        <br />
+        <label for="url">URL:</label>
+        <input id="url" name="url" data-bind="value: url" type="text" class="form-control" placeholder="Enter url" required />
+    </div>
+    <button type="submit" class="btn btn-primary btn-block">Get Count</button>
+</form>
+
+<div id="loading" class="alert alert-info" style="margin-top:50px;display:none">
+    Loading data... Please wait...
+</div>
+
+<div id="result" class="alert alert-info" style="margin-top:50px;display:none">
+    <h2>Result</h2>
+    <p>Your size is: <span></span></p>
+</div>
+
+<div id="error" class="alert alert-danger" style="margin-top:50px;display:none">
+    <h2>Error</h2>
+    <p>Oops! Something is not right... <span></span></p>
+</div>
